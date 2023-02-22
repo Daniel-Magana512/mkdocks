@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Bienvenido al Blog de Daniel Magaña Pérez
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
