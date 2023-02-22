@@ -4,11 +4,12 @@ nav:
     - Principal: index.md
     - Acerca de: about.md
     - Primer Trimestre:
-      - Práctica 1: 6-prestasho-ansible.md
-      - Práctica 2: practica2.md
+      - Práctica 6: 6-prestasho-ansible.md
+      - Práctica 9: 9-practica.md
     - Segundo Trimestre:
+      - Práctica 13_4: practica13_4.md
       - Práctica 14_1: 14_1-wordpress-docker-compose.md
-      - Práctica 13_2: practica13_.md
+
 
 theme:
   name: material
