@@ -7,7 +7,7 @@ nav:
       - Práctica 1: 6-prestasho-ansible.md
       - Práctica 2: practica2.md
     - Segundo Trimestre:
-      - Práctica 14_1: 14.1-wordpress-docker-compose.md
+      - Práctica 14_1: 14_1-wordpress-docker-compose.md
       - Práctica 13_2: practica13_.md
 
 theme:
