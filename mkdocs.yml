@@ -1,4 +1,6 @@
-site_name: IAW Daniel Magaña
+site_name : Daniel Magaña Pérez
+sitio_url : https://daniel-magana512.github.io/mkdocks/
+
 
 nav:
     - Principal: index.md
