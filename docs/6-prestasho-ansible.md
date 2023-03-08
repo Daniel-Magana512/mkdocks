@@ -19,7 +19,7 @@ Para ello habrá que especificar mediante las IPs de los los grupos de los equip
 * **ansible_ssh_private_key es la clave privada**
 * **ansible_ssh_common_args es para que no nos pregunte si aceptamos los terminos al principio**
 
- ![](https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_6/foto_1_6.PNG)
+![](https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_6/foto_1_6.PNG)
 
 
 ## **Archivo installl_lamp.yml**
