@@ -722,8 +722,8 @@ WP_SITEURL: https://chemaalonsooo12.ddns.net/wordpress
 
 Aquí podemos apreciar que puedo acceder como administrador.
 
- ![](https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_9/foto_1.PNG?raw=true)
+ ![](https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_9/foto_2.PNG?raw=true)
 
 Aquí podemos apreciar que podemos acceder por el lado del cliente.
 
- ![](https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_9/foto_2.PNG?raw=true)
+ ![](https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_9/foto_3.PNG?raw=true)

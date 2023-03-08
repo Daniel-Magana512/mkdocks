@@ -10,6 +10,6 @@ En mi tiempo libre me gusta jugar a fútbol, salir con los amigos , ver películ
 Una cosa que no he mencionado antes es que adoro viajar, aprovecho cualquier excusa para salir de mi entorno para conocer nuevos lugares.
 
 
- ![](https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_principal/foto_personal.png)
+ ![](https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_principal/foto_personal.png?raw=true)
 
 [wordpress](https://informateycomunica.wordpress.com/2019/09/25/presentacion)
