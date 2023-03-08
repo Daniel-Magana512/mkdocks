@@ -1,6 +1,4 @@
-site_name : Daniel Magaña Pérez
-
-
+site_name: IAW Daniel Magaña
 
 nav:
     - Principal: index.md
