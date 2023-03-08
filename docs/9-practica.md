@@ -22,7 +22,7 @@
 **Importante la máquina back-end tiene que tener el puerto 3306 y el servidor nfs el puerto 2049**
 
 
- ![](https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_9/foto1.PNG)
+ ![](https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_9/foto1.PNG?raw=true)
 
 ## **FASE 0**
 
@@ -722,8 +722,8 @@ WP_SITEURL: https://chemaalonsooo12.ddns.net/wordpress
 
 Aquí podemos apreciar que puedo acceder como administrador.
 
- ![](https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_9/foto_2.PNG)
+ ![](https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_9/foto_1.PNG?raw=true)
 
 Aquí podemos apreciar que podemos acceder por el lado del cliente.
 
- ![](https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_9/foto_3.PNG)
+ ![](https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_9/foto_2.PNG?raw=true)
