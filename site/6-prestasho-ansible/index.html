@@ -523,10 +523,10 @@ Para ello habrá que especificar mediante las IPs de los los grupos de los equip
 <li><strong>ansible_ssh_private_key es la clave privada</strong></li>
 <li><strong>ansible_ssh_common_args es para que no nos pregunte si aceptamos los terminos al principio</strong></li>
 </ul>
-<p><img alt="" src="https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_6/foto_1_6.PNG" /></p>
+<p><img alt="" src="https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_6/foto_1_6.PNG?raw=true" /></p>
 <h2 id="archivo-installl_lampyml"><strong>Archivo installl_lamp.yml</strong></h2>
 <p>Esto lo voy a explicar una vez ya que se repetirá cada vez que creemos un archivo con extensión yml con la herramienta de Ansible.</p>
-<p><img alt="" src="https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_6/foto_2_6.PNG" /></p>
+<p><img alt="" src="https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_6/foto_2_6.PNG?raw=true" /></p>
 <p>Empezamos poniendo el --- , esto se utilizar para definir una lista.
 <strong>name</strong> funciona solo de forma informativa.
 Los <strong>host</strong> se utilizar para definir un grupo (que ya esta creada en el inventario).</p>
@@ -548,7 +548,7 @@ Los <strong>host</strong> se utilizar para definir un grupo (que ya esta creada 
 </li>
 </ul>
 <p>Pasamos a la siguiente foto de este archivo:</p>
-<p><img alt="" src="https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_6/foto_3_6.PNG" /></p>
+<p><img alt="" src="https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_6/foto_3_6.PNG?raw=true" /></p>
 <ul>
 <li>
 <p><strong>Para borrar un archivo</strong> debo de poner <strong>file</strong> para definir que es un archivo, <strong>path</strong> es la ubicación entera del archivo. Con el <strong>state: absent</strong>.</p>
@@ -559,7 +559,7 @@ Los <strong>host</strong> se utilizar para definir un grupo (que ya esta creada 
 </ul>
 <h2 id="el-archivo-install_cerbot"><strong>El archivo install_cerbot</strong></h2>
 <p>Aquí vamos a configurar todo lo necesario para poner utilizar el protocolo https , en nuestra tienda de <strong>Prestashop</strong> de manerá que nos comunicaremos con la tienda a través del puerto 443.</p>
-<p><img alt="" src="https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_6/foto_4_6.PNG" /></p>
+<p><img alt="" src="https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_6/foto_4_6.PNG?raw=true" /></p>
 <p>Creo dos variables:</p>
 <ul>
 <li>
@@ -585,7 +585,7 @@ Los <strong>host</strong> se utilizar para definir un grupo (que ya esta creada 
 </li>
 </ul>
 <h2 id="archivo-installl_toolsyml"><strong>Archivo installl_tools.yml</strong></h2>
-<p><img alt="" src="https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_6/foto_5_6.PNG" /></p>
+<p><img alt="" src="https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_6/foto_5_6.PNG?raw=true" /></p>
 <ul>
 <li>
 <p>La variable que pongo al principio viene dada por una operación que explicaré más adelante(básicamente cuando me descargue la herramienta que me dice las necesidades de prestashop me pedia esos módulos).</p>
@@ -604,7 +604,7 @@ Los <strong>host</strong> se utilizar para definir un grupo (que ya esta creada 
 </li>
 </ul>
 <p>Seguimos con el archivo:</p>
-<p><img alt="" src="https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_6/foto_6_6.PNG" /></p>
+<p><img alt="" src="https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_6/foto_6_6.PNG?raw=true" /></p>
 <ul>
 <li>
 <p><strong>Instalación de la variables que he generado antes</strong> Una cosa que no he mencionado antes, es que las variables deben de estar dentro de {{Variable}} , así es como debería de estar.</p>
@@ -621,7 +621,7 @@ Los <strong>host</strong> se utilizar para definir un grupo (que ya esta creada 
 <p>Con <strong>search_string</strong> Me busca el contenido que quiero sustituir.</p>
 <p>Con <strong>line</strong> me permite poner la linea tal cual necesito, el problema de esto que me quita la linea completa, en la próxima práctica utilizaré <strong>replace</strong>.</p>
 <p>Seguimos en el mismo archivo:</p>
-<p><img alt="" src="https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_6/foto__7_6.PNG" /></p>
+<p><img alt="" src="https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_6/foto__7_6.PNG?raw=true" /></p>
 <ul>
 <li>
 <p><strong>Descargar un archivo</strong> Esto equivale al comando wget, podria poner <strong>get_url</strong> y funcionaría. En la <strong>url</strong> pongo la dirección del archivo y en <strong>dest</strong> pongo el destino.</p>
@@ -634,7 +634,7 @@ Los <strong>host</strong> se utilizar para definir un grupo (que ya esta creada 
 </li>
 </ul>
 <p>Seguimos con el archivo:</p>
-<p><img alt="" src="https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_6/foto_8_6.PNG" /></p>
+<p><img alt="" src="https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_6/foto_8_6.PNG?raw=true" /></p>
 <ul>
 <li>
 <p><strong>Añadimos los permisos de escritura necesario , además de los permisos de apache y loa hacemos de forma recursiva</strong></p>
@@ -660,7 +660,7 @@ Los <strong>host</strong> se utilizar para definir un grupo (que ya esta creada 
 </ul>
 <h2 id="archivo-deployyml"><strong>Archivo deploy.yml</strong></h2>
 <p>En este archivo vamos a instalar y configurar <strong>Prestashop</strong> <strong>PhpMyAdmin</strong></p>
-<p><img alt="" src="https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_6/foto_9_6.PNG" /></p>
+<p><img alt="" src="https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_6/foto_9_6.PNG?raw=true" /></p>
 <p>Declaramos dos grupos de variables.</p>
 <ul>
 <li>
@@ -686,7 +686,7 @@ Los <strong>host</strong> se utilizar para definir un grupo (que ya esta creada 
 </li>
 </ul>
 <p>Seguimos con el mismo archivo</p>
-<p><img alt="" src="https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_6/foto_10_6.PNG" /></p>
+<p><img alt="" src="https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_6/foto_10_6.PNG?raw=true" /></p>
 <ul>
 <li>
 <p><strong>Vamos a Instalar Prestashop</strong> con la opción de <strong>ansible.builtin.command</strong> nos permitirá insertar información (variables) al archivo <strong>index_cli.php</strong> la opción de <em>args</em> le pasamos el directorio donde se encuentra el archivo mencionado.</p>
@@ -706,7 +706,7 @@ Los <strong>host</strong> se utilizar para definir un grupo (que ya esta creada 
 </ul>
 <h2 id="archivo-conf_apacheyml"><strong>Archivo conf_apache.yml</strong></h2>
 <p>Cuando instalé todo en el cliente descargé los archivos <strong>000-default.conf</strong> y <strong>000-default-le-ssl.conf</strong> los metí en un repositorio de github de manerá que cuando quiera modificar algo solo tengo que modificarlo en github y hacer como <strong>un git clone</strong> borrando los iriginales y aplicanod las modificaciones</p>
-<p><img alt="" src="https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_6/foto_11_6.PNG" /></p>
+<p><img alt="" src="https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_6/foto_11_6.PNG?raw=true" /></p>
 <ul>
 <li>
 <p><strong>Eliminamos los archivos 000-default.conf y 000-default-le-ssl.conf</strong></p>
@@ -724,9 +724,9 @@ Los <strong>host</strong> se utilizar para definir un grupo (que ya esta creada 
 <p>Esto es lo que he añadido en los dos archivos:</p>
 <p>La primera línea es para que me coja por defecto el <strong>prestashop</strong>.</p>
 <p>La segunda línea es para que me me <strong>permita navegar</strong> por la página web </p>
-<p><img alt="" src="https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_6/foto_12_6.PNG" /></p>
+<p><img alt="" src="https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_6/foto_12_6.PNG?raw=true" /></p>
 <h2 id="comprobacion-de-que-funciona"><strong>Comprobación de que funciona</strong></h2>
-<p><img alt="" src="https://daniel-magana512.github.io/mkdocks/fotos_practicas/foto_practica_6/foto_13_6.PNG" /></p>
+<p><img alt="" src="https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_6/foto_6_6.PNG?raw=true" /></p>
 
 
 
