@@ -374,7 +374,7 @@ Faltaría ejecutar el archivo docker-compose.yml y sus herramintas:
 
 Si pongo el dominio en el navegador, aparecerá wordpress (ya lo habia instalado):
 
-![](https://Daniel-Magana512.github.io/fotos_practicas/foto_practica_14_1/foto1.png)
+![](https://github.com/Daniel-Magana512/mkdocks/blob/main/fotos_practicas/foto_practica_14_1/foto1.png?raw=true)
 
 Si pongo el dominio (poniendo http) y el puerto:8080 me llevará a phpmyadmin:
 ![](https://Daniel-Magana512.github.io/fotos_practicas/foto_practica_14_1/foto2.png)
